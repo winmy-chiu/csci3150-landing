@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
 body{
     /* background-color: #FFD1CA; */
-    /* background-color: #D9CDA5; */
+    /* background-color: #BCBCE8; */
+    /* background-color: #FFB196; */
+    /* background-color: #FFCFBE; */
+    /* background-color: #FFD5D5; */
+    background-color: #FFCDC0;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
@@ -13,7 +17,8 @@ p {
     /* color: #352535; */
     /* color:#5A4DA1; */
     /* color:#3A506B; */
-    color: black;
+    /* color: black; */
+    color: #003B4A;
     line-height: 1.8em;
 }
 
@@ -56,28 +61,31 @@ h3 {
     width: 1px;
 }
 
+
 /* nav ul li {
     list-style: none;
 } */
 
 nav ul li a {
-    /* text-decoration:none; Take out underline */
-    font-size: 1.2em; /* Make the text bigger*/
+    text-decoration: none; /* Take out underline*/
+    font-size: 1.8em; /* Make the text bigger*/
 }
 
 nav ul li a:link {
-    /* color: #3A506B;   */
-    color: black;
+    color: rgb(151, 165, 242);  /*Before hover through*/
+}
+
+nav ul li a:visited {
+    color:white;
 }
 
 nav ul li a:hover {
-    color: white;
-    /* background: #3A506B; */
     color: black;
+    background: white;
 }
 nav ul li:active {
-    color:black
+    color:yellow;
 }
-.no-bullet {
-    list-style: none;
-}
+/* img {
+    width: 400px;
+} */
