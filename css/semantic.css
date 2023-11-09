@@ -230,7 +230,25 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
         padding: 10px 5px;
         margin: 5px;
         border: 3px white solid;
+        color: white;
         background: rgb(49, 49, 79);
+
+    }
+    
+    nav ul li a:link {
+      color: white;
+    }
+    nav ul li a:hover {
+      background: rgb(56, 47, 68);
+    }
+
+    nav ul li a:active {
+      color: white;
+      background: rgb(49, 49, 79);
+    }
+    
+    nav ul li a:visited {
+      color: white;
     }
 }
 
