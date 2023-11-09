@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winmy Chiu's Class Portal</title>
+    <title>Winmy Chiu's CSCI 3150 Class Portal</title>
     <link href="css/semantic.css" rel="stylesheet">
 </head>
 <body>
+    <a class = "skip-link" href="#maincontent">Skip to Main Content</a>
     <div class="container">
         <header>
             <h1>Winmy Chiu's CSCI 3150 Class Portal</h1>
@@ -14,43 +16,60 @@
         <nav>
             <h2 class="sr-only">Main Navigation</h2>
             <ul>
-                <!--anchor tag-->
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#assignments">Assignments</a></li>
+                <li><a href="#maincontent">About Me</a></li>
+                <li><a href="#aside1">Image</a></li>
+                <li><a href="#aside2">Assignments</a></li>
             </ul>
         </nav>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p> My name is Winmy Chiu, I am a Senior majoring in Computer Science. I came from Aurora, Colorado. My families are from Guangdong, China, so I speak both Cantonese and Mandarin. 
-                My interest outside of classes is playing instruments and dance. My favorite color is orange, and my favorite dessert is cheesecake. I have an older brother, and he graduated from CU Boulder in May 2022.</p>
-        </section>
-        <section id="assignments">
-            <h2>Assignments</h2>
-            <ul>
-                <li><h3>Assignment 1:</h3></li>
-            </ul>
-            <ul class="no-bullet">
-                <li><a href="https://winmy-chiu.github.io/lab2_Fall2023_CSCI3150/"> Wikipedia Page</a></li>
-                <li><a href="https://github.com/winmy-chiu/lab2_Fall2023_CSCI3150/blob/main/index.html">Link to Code</a></li>
-            </ul>
+        <main id="maincontent">
+            <section>
+                <h2>About Me</h2>
+                
+                <p> My name is Winmy Chiu, I am a Senior majoring in Computer Science. I came from Aurora, Colorado. My families are from Guangdong, China, so I speak both Cantonese and Mandarin. 
+                    My interest outside of classes is playing instruments and dance. My favorite color is orange, and my favorite dessert is cheesecake. I have an older brother, and he graduated from CU Boulder in May 2022.</p>
+                
+                </section>
+        </main>
+        <aside id="aside1">
+            <h2> Image of Myself </h2>
+            <figure>
+                <img src="img/avatar.jpg" alt = "me in the snow under a tree">  <!-- Don't say "image of ..."-->
+                                <!-- width="400px" height="288px" will set a place holder while image loading, so page won't jump -->
+                <figcaption>In Denver Civic Center on December 30, 2022</figcaption>
+            </figure>
+        </aside>
+        <aside id="aside2">
+            <h2> Assignments </h2>
+                    <ul>
+                        <li><h3>Lab 2: </h3></li>
+                    </ul>
+                    <ul class="no-bullets">
+                        <li class="no-bullet"><a href="https://winmy-chiu.github.io/lab2_Fall2023_CSCI3150/"> - Coding & Posting a Web Page</a></li>
+                        <li><a href="https://github.com/winmy-chiu/lab2_Fall2023_CSCI3150/blob/main/index.html"> - Link to Code</a></li>
+                    </ul>
 
-            <ul>
-                <li><h3>Assignment 2:</h3></li>
-            </ul>
-            <ul class="no-bullet">
-                <li><a href="https://winmy-chiu.github.io/lab3-csci3150-tables-forms/">Tables and Forms</a></li>
-                <li><a href="https://github.com/winmy-chiu/lab3-csci3150-tables-forms/blob/main/index.html">Link to Code</a></li>
-            </ul>
+                    <ul>
+                        <li><h3>Lab 3: </h3></li>
+                    </ul>
+                    <ul class="no-bullets">
+                        <li><a href="https://winmy-chiu.github.io/lab3-csci3150-tables-forms/"> - Tables, Forms, Tabbed Browsing, and Screen Reading</a></li>
+                        <li><a href="https://github.com/winmy-chiu/lab3-csci3150-tables-forms/blob/main/index.html"> - Link to Code</a></li>
+                    </ul>
 
-            <ul>
-                <li><h3>Assignment 3:</h3></li>
-            </ul>
-            <ul class="no-bullet">
-                <li><a href="https://winmy-chiu.github.io/lab4-csci3150-accessible-CSS-layout/">Accessible CSS Layout</a></li>
-                <li><a href="https://github.com/winmy-chiu/lab4-csci3150-accessible-CSS-layout/blob/main/index.html">Link to Code</a></li>
-            </ul>
+                    <ul>
+                        <li><h3>Lab 4: </h3></li>
+                    </ul>
+                    <ul class="no-bullets">
+                        <li><a href="https://winmy-chiu.github.io/lab4-csci3150-accessible-CSS-layout/"> - Accessible CSS Layout</a></li>
+                        <li><a href="https://github.com/winmy-chiu/lab4-csci3150-accessible-CSS-layout/blob/main/index.html"> - Link to Code</a></li>
             
-        </section>
+                    </ul>
+        </aside>
+        
+        <footer>
+            <small> Designed by Winmy </small>
+        </footer>
+
     </div>
 </body>
 </html>
