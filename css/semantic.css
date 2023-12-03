@@ -217,8 +217,8 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
 /* Media query for medium/tablet */
 
 @media screen
-  and (min-width: 741px)
-  and (max-width: 900px)  {
+  and (min-width: 941px)
+  and (max-width: 1050px)  {
     .container {
         grid-template-columns:
         1fr 1fr;
@@ -236,7 +236,7 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
 /* Media query for small/mobile */
 
 @media screen
-  and (max-width: 740px)  {
+  and (max-width: 940px)  {
     .container {
         grid-template-columns:
         1fr;
