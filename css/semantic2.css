@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
 body{
-    background: darkslategrey;
+    background: rgb(152, 118, 153);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
@@ -76,7 +76,7 @@ ul li {
 
 header,
 main,
-aside,
+/* aside, */
 footer {
   padding: 2.0em;
   border: 1px black solid;
@@ -106,45 +106,27 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; /* Take out underline*/
   font-size: 1.1em;
-  color: rgb(49, 49, 79); /* Default link color */
 }
 
 nav ul li a:link {
-  color: rgb(49, 49, 79);
+  /* color: rgb(151, 165, 242);  Before hover through */
+  color: rgb(99, 63, 84);
 }
 
 nav ul li a:visited {
-  color: rgb(49, 49, 79);
+  color:rgb(99, 63, 84);
 }
 
 nav ul li a:hover {
-  background: white;
-  color: rgb(49, 49, 79);
-}
-
-/* nav ul li.active a {
-  color: black;
-  background: white;
-} */
-
-
-aside ul li a {
-  text-decoration: none;
-}
-
-aside ul li a:hover {
-  color: rgb(49, 49, 79);
+  color: rgb(99, 63, 84);
   background: white;
 }
 
-aside ul li a:link {
-  color: rgb(49, 49, 79);
-}
-
-aside ul li a:visited {
-  color: rgb(49, 49, 79);
+nav ul li:active {
+  color:black;
+  background: rgb(188, 182, 244);
 }
 
 figure {
@@ -191,7 +173,6 @@ figcaption {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: rgb(175, 222, 176);
   display: grid;
   width: 100vw;
   height: 100vh;
@@ -200,17 +181,16 @@ figcaption {
   grid-template-areas:
   "header1   header1"
   "nav1      nav1"
-  "aside1    main1"
-  "aside2    aside2"
+  "main1    main1"
   "footer1   footer1";
 }
 
-header {grid-area: header1; background:rgb(25, 32, 53);}
-nav {grid-area: nav1; background:rgb(192, 205, 236);}
-main {grid-area: main1; background:rgb(223, 218, 231) ; max-height: 100%;}
-#aside1 {grid-area: aside1; background: rgb(213, 211, 217);}
-#aside2 {grid-area: aside2; background: rgb(213, 211, 217);}
-footer {grid-area: footer1; background: rgb(25, 32, 53);}
+header {grid-area: header1; background:rgb(99, 63, 84);}
+nav {grid-area: nav1; background:rgb(213, 200, 209);}
+main {grid-area: main1; background:rgb(224, 213, 216) ; max-height: 100%;}
+/* #aside1 {grid-area: aside1; background: rgb(213, 211, 217);} */
+/* #aside2 {grid-area: aside2; background: rgb(213, 211, 217);} */
+footer {grid-area: footer1; background: rgb(99, 63, 84);}
 
 
 
@@ -226,8 +206,6 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
         "header1 header1"
         "nav1 nav1"
         "main1 main1"
-        "aside1 aside1"
-        "aside2 aside2"
         "footer1 footer1";
     }
 }
@@ -243,8 +221,6 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
         grid-template-areas:
         "header1"
         "main1"
-        "aside1"
-        "aside2"
         "nav1"
         "footer1";
     }
@@ -258,7 +234,7 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
         margin: 5px;
         border: 3px white solid;
         color: white;
-        background: rgb(49, 49, 79);
+        background: rgb(99, 63, 84);
 
     }
     
@@ -271,7 +247,7 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
 
     nav ul li a:active {
       color: white;
-      background: rgb(49, 49, 79);
+      background: rgb(99, 63, 84);
     }
     
     nav ul li a:visited {
@@ -285,7 +261,7 @@ footer {grid-area: footer1; background: rgb(25, 32, 53);}
 } */
 
 .skip-link {
-  background: rgb(49, 49, 79);
+  background: rgb(99, 63, 84);
   color: #fff;
   font-weight: 700;
   padding: 4px;
